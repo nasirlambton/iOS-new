@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F219139192180DC00D07921 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F219138192180DC00D07921 /* Foundation.framework */; };
+		7F21913B192180DC00D07921 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F21913A192180DC00D07921 /* CoreGraphics.framework */; };
+		7F21913D192180DC00D07921 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F21913C192180DC00D07921 /* UIKit.framework */; };
+		7F219143192180DC00D07921 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F219141192180DC00D07921 /* InfoPlist.strings */; };
+		7F219145192180DC00D07921 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F219144192180DC00D07921 /* main.m */; };
+		7F219149192180DC00D07921 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F219148192180DC00D07921 /* AppDelegate.m */; };
+		7F21914C192180DC00D07921 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F21914A192180DC00D07921 /* Main.storyboard */; };
+		7F21914F192180DC00D07921 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F21914E192180DC00D07921 /* ViewController.m */; };
+		7F219151192180DC00D07921 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F219150192180DC00D07921 /* Images.xcassets */; };
+		7F219158192180DC00D07921 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F219157192180DC00D07921 /* XCTest.framework */; };
+		7F219159192180DC00D07921 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F219138192180DC00D07921 /* Foundation.framework */; };
+		7F21915A192180DC00D07921 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F21913C192180DC00D07921 /* UIKit.framework */; };
+		7F219162192180DD00D07921 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F219160192180DD00D07921 /* InfoPlist.strings */; };
+		7F219164192180DD00D07921 /* nasirTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F219163192180DD00D07921 /* nasirTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F21915B192180DC00D07921 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F21912D192180DC00D07921 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F219134192180DC00D07921;
+			remoteInfo = nasir;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F219135192180DC00D07921 /* nasir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nasir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F219138192180DC00D07921 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7F21913A192180DC00D07921 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7F21913C192180DC00D07921 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7F219140192180DC00D07921 /* nasir-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nasir-Info.plist"; sourceTree = "<group>"; };
+		7F219142192180DC00D07921 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F219144192180DC00D07921 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F219146192180DC00D07921 /* nasir-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "nasir-Prefix.pch"; sourceTree = "<group>"; };
+		7F219147192180DC00D07921 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F219148192180DC00D07921 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F21914B192180DC00D07921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F21914D192180DC00D07921 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F21914E192180DC00D07921 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F219150192180DC00D07921 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7F219156192180DC00D07921 /* nasirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nasirTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F219157192180DC00D07921 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7F21915F192180DC00D07921 /* nasirTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nasirTests-Info.plist"; sourceTree = "<group>"; };
+		7F219161192180DD00D07921 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F219163192180DD00D07921 /* nasirTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nasirTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F219132192180DC00D07921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F21913B192180DC00D07921 /* CoreGraphics.framework in Frameworks */,
+				7F21913D192180DC00D07921 /* UIKit.framework in Frameworks */,
+				7F219139192180DC00D07921 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F219153192180DC00D07921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F219158192180DC00D07921 /* XCTest.framework in Frameworks */,
+				7F21915A192180DC00D07921 /* UIKit.framework in Frameworks */,
+				7F219159192180DC00D07921 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F21912C192180DC00D07921 = {
+			isa = PBXGroup;
+			children = (
+				7F21913E192180DC00D07921 /* nasir */,
+				7F21915D192180DC00D07921 /* nasirTests */,
+				7F219137192180DC00D07921 /* Frameworks */,
+				7F219136192180DC00D07921 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F219136192180DC00D07921 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F219135192180DC00D07921 /* nasir.app */,
+				7F219156192180DC00D07921 /* nasirTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F219137192180DC00D07921 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F219138192180DC00D07921 /* Foundation.framework */,
+				7F21913A192180DC00D07921 /* CoreGraphics.framework */,
+				7F21913C192180DC00D07921 /* UIKit.framework */,
+				7F219157192180DC00D07921 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F21913E192180DC00D07921 /* nasir */ = {
+			isa = PBXGroup;
+			children = (
+				7F219147192180DC00D07921 /* AppDelegate.h */,
+				7F219148192180DC00D07921 /* AppDelegate.m */,
+				7F21914A192180DC00D07921 /* Main.storyboard */,
+				7F21914D192180DC00D07921 /* ViewController.h */,
+				7F21914E192180DC00D07921 /* ViewController.m */,
+				7F219150192180DC00D07921 /* Images.xcassets */,
+				7F21913F192180DC00D07921 /* Supporting Files */,
+			);
+			path = nasir;
+			sourceTree = "<group>";
+		};
+		7F21913F192180DC00D07921 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F219140192180DC00D07921 /* nasir-Info.plist */,
+				7F219141192180DC00D07921 /* InfoPlist.strings */,
+				7F219144192180DC00D07921 /* main.m */,
+				7F219146192180DC00D07921 /* nasir-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F21915D192180DC00D07921 /* nasirTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F219163192180DD00D07921 /* nasirTests.m */,
+				7F21915E192180DC00D07921 /* Supporting Files */,
+			);
+			path = nasirTests;
+			sourceTree = "<group>";
+		};
+		7F21915E192180DC00D07921 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F21915F192180DC00D07921 /* nasirTests-Info.plist */,
+				7F219160192180DD00D07921 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F219134192180DC00D07921 /* nasir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F219167192180DD00D07921 /* Build configuration list for PBXNativeTarget "nasir" */;
+			buildPhases = (
+				7F219131192180DC00D07921 /* Sources */,
+				7F219132192180DC00D07921 /* Frameworks */,
+				7F219133192180DC00D07921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nasir;
+			productName = nasir;
+			productReference = 7F219135192180DC00D07921 /* nasir.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F219155192180DC00D07921 /* nasirTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F21916A192180DD00D07921 /* Build configuration list for PBXNativeTarget "nasirTests" */;
+			buildPhases = (
+				7F219152192180DC00D07921 /* Sources */,
+				7F219153192180DC00D07921 /* Frameworks */,
+				7F219154192180DC00D07921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F21915C192180DC00D07921 /* PBXTargetDependency */,
+			);
+			name = nasirTests;
+			productName = nasirTests;
+			productReference = 7F219156192180DC00D07921 /* nasirTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F21912D192180DC00D07921 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = GroupA;
+				TargetAttributes = {
+					7F219155192180DC00D07921 = {
+						TestTargetID = 7F219134192180DC00D07921;
+					};
+				};
+			};
+			buildConfigurationList = 7F219130192180DC00D07921 /* Build configuration list for PBXProject "nasir" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F21912C192180DC00D07921;
+			productRefGroup = 7F219136192180DC00D07921 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F219134192180DC00D07921 /* nasir */,
+				7F219155192180DC00D07921 /* nasirTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F219133192180DC00D07921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F219151192180DC00D07921 /* Images.xcassets in Resources */,
+				7F219143192180DC00D07921 /* InfoPlist.strings in Resources */,
+				7F21914C192180DC00D07921 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F219154192180DC00D07921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F219162192180DD00D07921 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F219131192180DC00D07921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F21914F192180DC00D07921 /* ViewController.m in Sources */,
+				7F219149192180DC00D07921 /* AppDelegate.m in Sources */,
+				7F219145192180DC00D07921 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F219152192180DC00D07921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F219164192180DD00D07921 /* nasirTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F21915C192180DC00D07921 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F219134192180DC00D07921 /* nasir */;
+			targetProxy = 7F21915B192180DC00D07921 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F219141192180DC00D07921 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F219142192180DC00D07921 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7F21914A192180DC00D07921 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F21914B192180DC00D07921 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F219160192180DD00D07921 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F219161192180DD00D07921 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F219165192180DD00D07921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7F219166192180DD00D07921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F219168192180DD00D07921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nasir/nasir-Prefix.pch";
+				INFOPLIST_FILE = "nasir/nasir-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7F219169192180DD00D07921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nasir/nasir-Prefix.pch";
+				INFOPLIST_FILE = "nasir/nasir-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7F21916B192180DD00D07921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/nasir.app/nasir";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nasir/nasir-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "nasirTests/nasirTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7F21916C192180DD00D07921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/nasir.app/nasir";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nasir/nasir-Prefix.pch";
+				INFOPLIST_FILE = "nasirTests/nasirTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F219130192180DC00D07921 /* Build configuration list for PBXProject "nasir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F219165192180DD00D07921 /* Debug */,
+				7F219166192180DD00D07921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F219167192180DD00D07921 /* Build configuration list for PBXNativeTarget "nasir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F219168192180DD00D07921 /* Debug */,
+				7F219169192180DD00D07921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F21916A192180DD00D07921 /* Build configuration list for PBXNativeTarget "nasirTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F21916B192180DD00D07921 /* Debug */,
+				7F21916C192180DD00D07921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F21912D192180DC00D07921 /* Project object */;
+}

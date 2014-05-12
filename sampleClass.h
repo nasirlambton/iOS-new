@@ -1,14 +1,13 @@
 //
-//  ViewController.h
+//  sampleClass.h
 //  nasir
 //
 //  Created by User1 on 2014-05-12.
 //  Copyright (c) 2014 GroupA. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
+@interface sampleClass : NSObject
 
-
-@end 
+@end

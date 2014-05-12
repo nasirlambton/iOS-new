@@ -21,6 +21,7 @@
 		7F21915A192180DC00D07921 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F21913C192180DC00D07921 /* UIKit.framework */; };
 		7F219162192180DD00D07921 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F219160192180DD00D07921 /* InfoPlist.strings */; };
 		7F219164192180DD00D07921 /* nasirTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F219163192180DD00D07921 /* nasirTests.m */; };
+		7F21916F192181BE00D07921 /* sampleClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F21916E192181BE00D07921 /* sampleClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		7F21915F192180DC00D07921 /* nasirTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nasirTests-Info.plist"; sourceTree = "<group>"; };
 		7F219161192180DD00D07921 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7F219163192180DD00D07921 /* nasirTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nasirTests.m; sourceTree = "<group>"; };
+		7F21916D192181BE00D07921 /* sampleClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sampleClass.h; sourceTree = "<group>"; };
+		7F21916E192181BE00D07921 /* sampleClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sampleClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		7F21912C192180DC00D07921 = {
 			isa = PBXGroup;
 			children = (
+				7F21916D192181BE00D07921 /* sampleClass.h */,
+				7F21916E192181BE00D07921 /* sampleClass.m */,
 				7F21913E192180DC00D07921 /* nasir */,
 				7F21915D192180DC00D07921 /* nasirTests */,
 				7F219137192180DC00D07921 /* Frameworks */,
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F21916F192181BE00D07921 /* sampleClass.m in Sources */,
 				7F21914F192180DC00D07921 /* ViewController.m in Sources */,
 				7F219149192180DC00D07921 /* AppDelegate.m in Sources */,
 				7F219145192180DC00D07921 /* main.m in Sources */,
